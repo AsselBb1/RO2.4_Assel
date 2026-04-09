@@ -94,7 +94,7 @@ class Program
 
 
 
-        // IsPalindrome
+        //p
         Console.WriteLine(IsPalindrome("madam"));
         Console.WriteLine(IsPalindrome("hello"));
         Console.WriteLine(IsPalindrome("racecar"));
@@ -102,22 +102,22 @@ class Program
 
 
 
-        // Factorial
-        Console.WriteLine(Factorial(5));  // 120
-        Console.WriteLine(Factorial(7));  // 5040
-        Console.WriteLine(Factorial(0));  // 1
+        // F
+        Console.WriteLine(Factorial(5));  
+        Console.WriteLine(Factorial(7));  
+        Console.WriteLine(Factorial(0));  
 
 
 
 
-        // FizzBuzz
+        // Fb
         for (int i = 1; i <= 20; i++)
             Console.WriteLine(FizzBuzz(i));
 
 
 
 
-        // Celsius ↔ Fahrenheit
+        // Celsius/ Fahrenheit
         double[] celsius = { 0, 20, 37, 100, -40 };
         foreach (double c in celsius)
         {
